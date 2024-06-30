@@ -1,11 +1,11 @@
-torch==1.5.0
-torchvision==0.6.0
-easydict==1.9
-opencv-python==4.2.0.34
-numpy==1.18.3
-torchsummary==1.5.1
-tensorboard==2.2.1
-scikit-learn==0.22.2
+#torch==1.5.0 must install from jetson site directly
+#torchvision==0.6.0
+easydict==1.13
+opencv-python==4.9.0.80
+numpy==1.26.4
+# torchsummary==1.5.1 not really needed
+#tensorboard==2.2.1
+scikit-learn==1.4.2
 wget==3.2
-tqdm==4.54.0
-matplotlib==3.3.3
+tqdm==4.66.4
+matplotlib==3.8.4

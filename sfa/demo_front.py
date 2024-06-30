@@ -8,12 +8,9 @@
 # Description: Demonstration script for the front view only
 """
 
-import argparse
-import sys
 import os
-import time
+import sys
 import warnings
-import zipfile
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -87,6 +84,7 @@ if __name__ == '__main__':
                 out_cap = cv2.VideoWriter(out_path, fourcc, 30, (out_cap_w, out_cap_h))
 
             out_cap.write(out_img)
+            print(f"{int(fps)} fps")
 
     if out_cap:
         out_cap.release()
